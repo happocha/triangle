@@ -107,10 +107,10 @@ enum NVGimageFlagsGL {
 
 #ifdef NANOVG_GL_IMPLEMENTATION
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdlib.h"
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdio.h"
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string.h"
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/math.h"
 #include "nanovg.h"
 
 enum GLNVGuniformLoc {

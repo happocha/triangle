@@ -7,8 +7,8 @@
 
 #include <jni.h>
 #include "Triangle.hpp"
-#include "nanovg_gl.h"
-#include "nanovg_gl_utils.h"
+#include "nvg/nanovg_gl.h"
+#include "nvg/nanovg_gl_utils.h"
 
 #define TRIANGLE_HEIGHT 100
 #define TRIANGLE_WIDTH 120

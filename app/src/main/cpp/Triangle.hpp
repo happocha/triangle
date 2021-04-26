@@ -21,7 +21,7 @@
 
 #endif
 
-#include "nanovg.h"
+#include "nvg/nanovg.h"
 
 class Triangle {
     typedef std::function<void(float)> RadCallback;

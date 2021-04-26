@@ -389,7 +389,7 @@ distribute, and modify this file as you see fit.
 
 
 #ifndef STBI_NO_STDIO
-#include <stdio.h>
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdio.h"
 #endif // STBI_NO_STDIO
 
 #define STBI_VERSION 1
@@ -561,21 +561,21 @@ STBIDEF int   stbi_zlib_decode_noheader_buffer(char *obuffer, int olen, const ch
 #endif
 
 
-#include <stdarg.h>
-#include <stddef.h> // ptrdiff_t on osx
-#include <stdlib.h>
-#include <string.h>
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include/stdarg.h"
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include/stddef.h" // ptrdiff_t on osx
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include/stdlib.h"
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/string.h"
 
 #if !defined(STBI_NO_LINEAR) || !defined(STBI_NO_HDR)
-#include <math.h>  // ldexp
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include/math.h"  // ldexp
 #endif
 
 #ifndef STBI_NO_STDIO
-#include <stdio.h>
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdio.h"
 #endif
 
 #ifndef STBI_ASSERT
-#include <assert.h>
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/assert.h"
 #define STBI_ASSERT(x) assert(x)
 #endif
 
@@ -597,7 +597,7 @@ typedef   signed short stbi__int16;
 typedef unsigned int   stbi__uint32;
 typedef   signed int   stbi__int32;
 #else
-#include <stdint.h>
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include/stdint.h"
 typedef uint16_t stbi__uint16;
 typedef int16_t  stbi__int16;
 typedef uint32_t stbi__uint32;
@@ -674,7 +674,7 @@ typedef unsigned char validate_uint32[sizeof(stbi__uint32)==4 ? 1 : -1];
 
 #if !defined(STBI_NO_SIMD) && defined(STBI__X86_TARGET)
 #define STBI_SSE2
-#include <emmintrin.h>
+#include "../../../../../../../Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include/emmintrin.h"
 
 #ifdef _MSC_VER
 
